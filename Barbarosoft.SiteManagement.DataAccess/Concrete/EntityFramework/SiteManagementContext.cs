@@ -1,4 +1,5 @@
-﻿using Barbarosoft.SiteManagement.Entities.Concrete;
+﻿using Barbarosoft.SiteManagement.DataAccess.Concrete.EntityFramework.Mappings;
+using Barbarosoft.SiteManagement.Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,14 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.EntityFramework
             optionsBuilder.UseSqlServer("Data Source=DESKTOP-1AC67OU\\SQLEXPRESS; Database=SiteManagementDb;Integrated Security=True");
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CurrentOccupierMap());
+            //Ef mappings to be added here
+        }
+
         public DbSet<Flat> Flats { get; set; }
         public DbSet<CurrentOccupier> CurrentOccupiers { get; set; }
+        //Table Names to be added here
     }
 }

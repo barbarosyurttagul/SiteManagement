@@ -8,5 +8,6 @@ namespace Barbarosoft.SiteManagement.DataAccess.Abstract
 {
     public interface ICurrentOccupierDal : IEntityRepository<CurrentOccupier>
     {
+        //Additional methods to be added here
     }
 }
