@@ -38,8 +38,7 @@ namespace Barbarosoft.Core.DataAccess.NHibernate
         {
             using (var session = _nHibernateHelper.OpenSession())
             {
-                var query = session.Query<TEntity>() as IQueryable<TEntity>;
-                return query.SingleOrDefault(filter);
+                return session.Query<TEntity>().SingleOrDefault(filter);
             }
         }
 
@@ -47,10 +46,9 @@ namespace Barbarosoft.Core.DataAccess.NHibernate
         {
             using (var session = _nHibernateHelper.OpenSession())
             {
-                var query = session.Query<TEntity>() as IQueryable<TEntity>;
                 return filter == null
-                    ? query.ToList()
-                    : query.Where(filter).ToList();
+                    ? session.Query<TEntity>().ToList()
+                    : session.Query<TEntity>().Where(filter).ToList();
             }
         }
 

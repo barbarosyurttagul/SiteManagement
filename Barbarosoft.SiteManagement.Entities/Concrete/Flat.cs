@@ -7,8 +7,8 @@ namespace Barbarosoft.SiteManagement.Entities.Concrete
 {
     public class Flat : IEntity
     {
-        public int FlatId { get; set; }
-        public string BlockName { get; set; }
-        public string FlatName { get; set; }
+        public virtual int FlatId { get; set; }
+        public virtual string BlockName { get; set; }
+        public virtual string FlatName { get; set; }
     }
 }
