@@ -1,0 +1,9 @@
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\bin\Debug\netcoreapp2.2\Barbarosoft.Core.deps.json
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\bin\Debug\netcoreapp2.2\Barbarosoft.Core.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.csprojAssemblyReference.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.csproj.CoreCompileInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.AssemblyInfoInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.AssemblyInfo.cs
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\bin\Debug\netcoreapp2.2\Barbarosoft.Core.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.pdb

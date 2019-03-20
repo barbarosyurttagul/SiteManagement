@@ -1,0 +1,12 @@
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.deps.json
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\bin\Debug\netcoreapp2.2\Barbarosoft.Core.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\bin\Debug\netcoreapp2.2\Barbarosoft.Core.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.csprojAssemblyReference.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.AssemblyInfoInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.AssemblyInfo.cs
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.csproj.CopyComplete
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Entities\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.pdb

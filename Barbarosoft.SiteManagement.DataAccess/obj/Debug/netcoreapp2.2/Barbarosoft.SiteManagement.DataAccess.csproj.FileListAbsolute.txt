@@ -1,0 +1,14 @@
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.Core.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.csprojAssemblyReference.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.AssemblyInfo.cs
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.deps.json
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.Core.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Entities.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.csproj.CopyComplete
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.DataAccess\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.DataAccess.pdb

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="2.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Barbarosoft.Core\Barbarosoft.Core.csproj" />
+    <ProjectReference Include="..\Barbarosoft.SiteManagement.Entities\Barbarosoft.SiteManagement.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

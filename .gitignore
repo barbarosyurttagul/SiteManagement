@@ -1,7 +1,2 @@
 .vs
-bin
-obj
-*.db
-*.csproj
-*.sln
 ConsoleApp1
