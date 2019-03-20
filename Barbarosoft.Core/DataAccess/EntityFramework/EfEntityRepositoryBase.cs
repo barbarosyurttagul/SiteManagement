@@ -37,8 +37,7 @@ namespace Barbarosoft.Core.DataAccess.EntityFramework
         {
             using (var context = new TContext())
             {
-                var query = context.Set<TEntity>() as IQueryable<TEntity>;
-                var result = query.FirstOrDefault(filter);
+                var result = context.Set<TEntity>().FirstOrDefault(filter);
                 return result;
             }
         }
@@ -47,10 +46,9 @@ namespace Barbarosoft.Core.DataAccess.EntityFramework
         {
             using (var context = new TContext())
             {
-                var query = context.Set<TEntity>() as IQueryable<TEntity>;
                 return filter == null
-                    ? query.ToList()
-                    : query.Where(filter).ToList();
+                    ? context.Set<TEntity>().ToList()
+                    : context.Set<TEntity>().Where(filter).ToList();
             }
         }
 

@@ -21,7 +21,7 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.NHibernate.Mappings
             Map(x => x.CheckinDate).Column("CheckinDate");
             Map(x => x.CheckoutDate).Column("CheckoutDate");
             Map(x => x.Landlord).Column("Landlord");
-            Map(x => x.Flat.FlatId).Column("FlatId");
+            Map(x => x.FlatId).Column("FlatId");
         }
     }
 }

@@ -14,8 +14,8 @@ namespace Barbarosoft.SiteManagement.Entities.Concrete
         public string PhoneNumber { get; set; }
         public bool Landlord { get; set; }
         public DateTime CheckinDate { get; set; }
-        public DateTime CheckoutDate { get; set; }
+        public DateTime? CheckoutDate { get; set; }
 
-        public virtual Flat Flat { get; set; }
+        public int FlatId { get; set; }
     }
 }

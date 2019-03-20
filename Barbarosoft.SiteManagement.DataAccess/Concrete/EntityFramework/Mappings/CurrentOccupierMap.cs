@@ -11,7 +11,7 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.EntityFramework.Mapping
     {
         public void Configure(EntityTypeBuilder<CurrentOccupier> builder)
         {
-            builder.ToTable(@"CurrentOccupier", @"dbo");
+            builder.ToTable(@"CurrentOccupiers", @"dbo");
             builder.HasKey("CurrentOccupierId");
 
             builder.Property(x => x.CurrentOccupierId).HasColumnName("CurrentOccupierId");
@@ -22,7 +22,7 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.EntityFramework.Mapping
             builder.Property(x => x.Landlord).HasColumnName("Landlord");
             builder.Property(x => x.CheckinDate).HasColumnName("CheckinDate");
             builder.Property(x => x.CheckoutDate).HasColumnName("CheckoutDate");
-            builder.Property(x => x.Flat.FlatId).HasColumnName("FlatId");
+            builder.Property(x => x.FlatId).HasColumnName("FlatId");
         }
     }
 }
