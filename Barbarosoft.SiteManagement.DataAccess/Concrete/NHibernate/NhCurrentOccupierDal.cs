@@ -9,8 +9,10 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.NHibernate
 {
     public class NhCurrentOccupierDal : NhEntityRepositoryBase<CurrentOccupier>, ICurrentOccupierDal
     {
+        private NHibernateHelper _nHibernateHelper;
         public NhCurrentOccupierDal(NHibernateHelper nHibernateHelper) : base(nHibernateHelper)
         {
+            _nHibernateHelper = nHibernateHelper;
         }
     }
 }
