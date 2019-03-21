@@ -17,6 +17,7 @@ namespace Barbarosoft.SiteManagement.DataAccess.Concrete.EntityFramework
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new CurrentOccupierMap());
+            modelBuilder.ApplyConfiguration(new FlatMap());
             //Ef mappings to be added here
         }
 
