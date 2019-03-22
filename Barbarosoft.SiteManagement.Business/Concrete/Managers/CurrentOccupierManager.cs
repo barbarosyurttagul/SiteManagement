@@ -1,4 +1,6 @@
-﻿using Barbarosoft.SiteManagement.Business.Abstract;
+﻿using Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation;
+using Barbarosoft.SiteManagement.Business.Abstract;
+using Barbarosoft.SiteManagement.Business.ValidationRules.FluentValidation;
 using Barbarosoft.SiteManagement.DataAccess.Abstract;
 using Barbarosoft.SiteManagement.Entities.Concrete;
 using System;
@@ -19,6 +21,7 @@ namespace Barbarosoft.SiteManagement.Business.Concrete.Managers
 
         public CurrentOccupier Add(CurrentOccupier entity)
         {
+            ValidatorTool.FluentValidate(new CurrentOccupierValidator(), entity);
             return _currentOccupierDal.Add(entity);
         }
 
