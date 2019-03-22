@@ -6,3 +6,4 @@ C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\bin\Debug\netcoreapp2.2\Barbarosoft.Core.pdb
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.dll
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.Core\obj\Debug\netcoreapp2.2\Barbarosoft.Core.csprojAssemblyReference.cache
