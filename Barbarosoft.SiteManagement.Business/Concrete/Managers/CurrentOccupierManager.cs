@@ -25,6 +25,12 @@ namespace Barbarosoft.SiteManagement.Business.Concrete.Managers
             return _currentOccupierDal.Add(entity);
         }
 
+        public CurrentOccupier Update(CurrentOccupier entity)
+        {
+            ValidatorTool.FluentValidate(new CurrentOccupierValidator(), entity);
+            return _currentOccupierDal.Update(entity);
+        }
+
         public void Delete(CurrentOccupier entity)
         {
             _currentOccupierDal.Delete(entity);
@@ -40,9 +46,5 @@ namespace Barbarosoft.SiteManagement.Business.Concrete.Managers
             return _currentOccupierDal.GetList(filter);
         }
 
-        public CurrentOccupier Update(CurrentOccupier entity)
-        {
-            return _currentOccupierDal.Update(entity);
-        }
     }
 }
