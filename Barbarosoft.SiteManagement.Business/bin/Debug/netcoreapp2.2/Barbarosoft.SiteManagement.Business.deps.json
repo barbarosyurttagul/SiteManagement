@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "5a443417a37a135668d9088f108dadc4cc07eeba"
+    "signature": "863010cc8a567f90a2ed8388118b18b4509a6ed0"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "Barbarosoft.SiteManagement.DataAccess": "1.0.0",
           "Barbarosoft.SiteManagement.Entities": "1.0.0",
           "FluentValidation.AspNetCore": "8.1.3",
+          "Ninject": "3.3.4",
           "PostSharp": "6.1.17"
         },
         "runtime": {
@@ -1012,6 +1013,18 @@
           "lib/netcoreapp2.0/NHibernate.dll": {
             "assemblyVersion": "5.2.0.0",
             "fileVersion": "5.2.4.0"
+          }
+        }
+      },
+      "Ninject/3.3.4": {
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ninject.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
           }
         }
       },
@@ -2614,6 +2627,13 @@
       "sha512": "sha512-jjvOO9g73GVWn7tV814/d/Hi8BnPMrpMa8r88vHfvXYOYr7RTYTtY+VTiLRTP4EgdctfEN1+WRMGnSNi9K6bgA==",
       "path": "nhibernate/5.2.4",
       "hashPath": "nhibernate.5.2.4.nupkg.sha512"
+    },
+    "Ninject/3.3.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "path": "ninject/3.3.4",
+      "hashPath": "ninject.3.3.4.nupkg.sha512"
     },
     "PostSharp/6.1.17": {
       "type": "package",
