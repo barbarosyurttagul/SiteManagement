@@ -1316,6 +1316,19 @@
           "lib/netcoreapp2.0/NHibernate.dll": {}
         }
       },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ninject.dll": {}
+        }
+      },
       "PostSharp/6.1.17": {
         "type": "package",
         "dependencies": {
@@ -2048,7 +2061,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.ILGeneration.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.ILGeneration.dll": {}
@@ -2063,7 +2076,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -4569,6 +4582,20 @@
         "nhibernate-mapping.xsd",
         "nhibernate.5.2.4.nupkg.sha512",
         "nhibernate.nuspec"
+      ]
+    },
+    "Ninject/3.3.4": {
+      "sha512": "CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "type": "package",
+      "path": "ninject/3.3.4",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.4.nupkg.sha512",
+        "ninject.nuspec"
       ]
     },
     "PostSharp/6.1.17": {
@@ -8692,6 +8719,7 @@
       "Barbarosoft.SiteManagement.Entities >= 1.0.0",
       "FluentValidation.AspNetCore >= 8.1.3",
       "Microsoft.NETCore.App >= 2.2.0",
+      "Ninject >= 3.3.4",
       "PostSharp >= 6.1.17"
     ]
   },
@@ -8755,6 +8783,10 @@
             "target": "Package",
             "version": "[2.2.0, )",
             "autoReferenced": true
+          },
+          "Ninject": {
+            "target": "Package",
+            "version": "[3.3.4, )"
           },
           "PostSharp": {
             "target": "Package",
