@@ -1,4 +1,5 @@
-﻿using Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation;
+﻿using Barbarosoft.Core.Aspects.Postsharp;
+using Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Barbarosoft.SiteManagement.Business.Abstract;
 using Barbarosoft.SiteManagement.Business.ValidationRules.FluentValidation;
 using Barbarosoft.SiteManagement.DataAccess.Abstract;
@@ -6,7 +7,6 @@ using Barbarosoft.SiteManagement.Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
-using System.Text;
 
 namespace Barbarosoft.SiteManagement.Business.Concrete.Managers
 {
@@ -19,9 +19,10 @@ namespace Barbarosoft.SiteManagement.Business.Concrete.Managers
             _currentOccupierDal = currentOccupierDal;
         }
 
+        [FluentValidationAspect(typeof(CurrentOccupierValidator))]
         public CurrentOccupier Add(CurrentOccupier entity)
         {
-            ValidatorTool.FluentValidate(new CurrentOccupierValidator(), entity);
+            //ValidatorTool.FluentValidate(new CurrentOccupierValidator(), entity);
             return _currentOccupierDal.Add(entity);
         }
 

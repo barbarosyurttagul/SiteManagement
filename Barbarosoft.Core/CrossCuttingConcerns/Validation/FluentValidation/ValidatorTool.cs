@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation
 {
-    public class ValidatorTool
+    public static class ValidatorTool
     {
         public static void FluentValidate(IValidator validator, object entity)
         {

@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.1.17\bin.Release\netcoreapp2.1\PostSharp.Compiler.Engine.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\PostSharp\postsharp.config

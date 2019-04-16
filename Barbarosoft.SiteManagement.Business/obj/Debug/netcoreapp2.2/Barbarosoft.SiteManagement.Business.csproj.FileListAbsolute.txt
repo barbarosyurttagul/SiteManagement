@@ -11,3 +11,10 @@ C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.AssemblyInfoInputs.cache
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.AssemblyInfo.cs
 C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.csproj.CopyComplete
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.dll
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.pdb
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\bin\Debug\netcoreapp2.2\Barbarosoft.SiteManagement.Business.pssym
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\PostSharp\touch
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\PostSharp\dependencies.txt
+C:\Users\Barbaros\Documents\Visual Studio 2017\Projects\Barbarosoft\Barbarosoft.SiteManagement.Business\obj\Debug\netcoreapp2.2\PostSharp\postsharp.app.config

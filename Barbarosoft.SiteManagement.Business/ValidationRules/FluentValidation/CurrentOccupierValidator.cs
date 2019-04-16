@@ -10,9 +10,9 @@ namespace Barbarosoft.SiteManagement.Business.ValidationRules.FluentValidation
     {
         public CurrentOccupierValidator()
         {
-            RuleFor(x => x.FirstMidName).NotEmpty();
-            RuleFor(x => x.CheckinDate).NotEmpty();
-            RuleFor(x => x.FlatId).NotEmpty();
+            RuleFor(x => x.FirstMidName).Length(4, 25).NotEmpty().WithMessage("Harf Fazla");
+            //RuleFor(x => x.CheckinDate).NotEmpty();
+            RuleFor(x => x.FlatId).LessThan(5).WithMessage("Rakam fazla");
         }
     }
 }
