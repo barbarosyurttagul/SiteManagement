@@ -6,7 +6,7 @@ using System.Text;
 using System.Linq;
 using Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation;
 
-namespace Barbarosoft.Core.Aspects.Postsharp
+namespace Barbarosoft.Core.Aspects.Postsharp.ValidationAspects
 {
     [Serializable]
     public class FluentValidationAspect : OnMethodBoundaryAspect

@@ -1,4 +1,5 @@
 ﻿using Barbarosoft.Core.Aspects.Postsharp;
+using Barbarosoft.Core.Aspects.Postsharp.ValidationAspects;
 using Barbarosoft.Core.CrossCuttingConcerns.Validation.FluentValidation;
 using Barbarosoft.SiteManagement.Business.Abstract;
 using Barbarosoft.SiteManagement.Business.ValidationRules.FluentValidation;
